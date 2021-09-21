@@ -10,3 +10,6 @@
     2% tax gows back to reward pool
     2% tax goes back to marketing wallet
 */
+
+// Token BEP-20 
+
