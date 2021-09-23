@@ -11,13 +11,9 @@
     2% tax goes back to marketing wallet
 */
 
-//**
- *Submitted for verification at polygonscan.com on 2021-07-17
-*/
-
 // SPDX-License-Identifier: MIT
 
-pragma solidity 0.8.6;
+pragma solidity 0.8.7;
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
