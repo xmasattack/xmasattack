@@ -9,9 +9,10 @@
     Transaction tax:
     2% tax gows back to reward pool
     2% tax goes back to marketing wallet
-*/
 
-// SPDX-License-Identifier: MIT
+    The team has the power to mint another amount of the tokens after repart the tokens between
+    the team, and the Presale, and Public sale.
+*/
 
 pragma solidity 0.8.7;
 
@@ -792,8 +793,8 @@ contract XMASATTACK is ERC20, Ownable {
     /* ========== GOVERNANCE ========== */
 
     constructor() ERC20("XMASATTACK", "XMAS") {
-        cap = 21000000 ether; // Max Supply: 100,000,000, million MEEB
-        _mint(_msgSender(), (cap * 15) / 100); // Private sale + IDO + Airdrop + Advisor: 15%
+        cap = 100000000 ether; // Max Supply: 100,000,000, million XMAS
+        _mint(_msgSender(), (cap * 25) / 100); // Private sale + IDO + Airdrop + Advisor: 45%
     }
 
     function setCap(uint256 _newCap) external onlyOwner {
