@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-/* Total Supply = 100%
+/* Total Supply = 100,000,000
     20 million burnt (20%) to larget state
     25 million reward pool (25%)
     25 million public sale(25%)
@@ -770,7 +770,7 @@ library SafeMath {
     }
 }
 
-contract MeebToken is ERC20, Ownable {
+contract XMASATTACK is ERC20, Ownable {
     using SafeMath for uint256;
 
     uint256 public cap;
@@ -791,8 +791,8 @@ contract MeebToken is ERC20, Ownable {
 
     /* ========== GOVERNANCE ========== */
 
-    constructor() ERC20("MeebMaster.com Token", "MEEB") {
-        cap = 21000000 ether; // Max Supply: 21 million MEEB
+    constructor() ERC20("XMASATTACK", "XMAS") {
+        cap = 21000000 ether; // Max Supply: 100,000,000, million MEEB
         _mint(_msgSender(), (cap * 15) / 100); // Private sale + IDO + Airdrop + Advisor: 15%
     }
 
