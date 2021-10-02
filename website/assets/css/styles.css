@@ -366,6 +366,7 @@ img{
   width: 110px;
   justify-self: center;
   margin-bottom: .25rem;
+  border-radius: 1.5rem;
 }
 
 .accessory__title, .accessory__category{
