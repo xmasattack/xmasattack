@@ -315,6 +315,7 @@ img{
 .share__img{
   width: 280px;
   justify-self: center;
+  border-radius: 1.5rem;
 }
 
 /*========== DECORATION ==========*/
@@ -435,6 +436,10 @@ img{
 .send__img{
   width: 280px;
   justify-self: center;
+}
+
+.img__radius {
+  border-radius: 1.5rem;
 }
 
 /*========== FOOTER ==========*/
