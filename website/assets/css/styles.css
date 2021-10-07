@@ -379,9 +379,10 @@ img{
 }
 
 .accessory__category{
-  font-size: var(--small-font-size);
+  font-size: var(--biggest-font-size);
   margin-bottom: var(--mb-1);
   color: var(--text-color-light);
+  border-radius: 1.5rem;
 }
 
 .accessory__preci{
